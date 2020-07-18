@@ -1,11 +1,18 @@
 import React from 'react';
-
 import './App.css';
 
-function App() {
+import HomePage from './pages/homepage/homepage-component';
+import Reservation from './pages/reservation/reservation-component';
+import Header from './components/header/header-component';
+import Footer from './components/footer/footer-component'
+
+const App = () => {
   return (
     <div className="App">
-      HELLO WORLD
+      <Header />
+      <HomePage />
+      
+      <Footer />
     </div>
   );
 }

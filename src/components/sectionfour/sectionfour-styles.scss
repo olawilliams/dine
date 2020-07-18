@@ -1,0 +1,52 @@
+.section-four {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    background: #000000;
+    color: #ffffff;
+    margin-top: -3%;
+    padding-top: 8em;
+    padding-bottom: 3em;
+
+    .section-text {
+        margin: 20px;
+        margin-left: 20px;
+        padding: 2em;
+
+        .heading {
+            font-size: 2.3em;
+        }
+
+        .text {
+            font-size: 1em;
+            padding: 10px;
+            line-height: 2em;
+        }
+    }
+
+    .highlights {
+        hr {
+            opacity: 0.3;
+        }
+       
+        .menu {
+            display: grid;
+            grid-template-columns: 25% 75%;
+            grid-gap: 20px;
+            place-items: center;
+
+            .menu-image {
+                width: 100px;
+                height: 100px;
+            }
+
+            .menu-text {
+                padding: 5px;
+
+                .menu-name {
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+}

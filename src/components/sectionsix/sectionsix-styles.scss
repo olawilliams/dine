@@ -1,0 +1,20 @@
+.section-six {
+    width: 100%;
+    height: 200px;
+
+    .image {
+       
+     position: relative;
+        
+    }
+
+    .reserve {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+
+        .ready {
+            color: red;
+        }
+    }
+}

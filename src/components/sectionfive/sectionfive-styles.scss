@@ -1,0 +1,12 @@
+.section-five {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+
+    .tabs {
+        .tab {
+            color: red;
+            list-style: none;
+        }
+    }
+}

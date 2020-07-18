@@ -1,0 +1,47 @@
+.section-three {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    justify-content: center;
+    
+    .section-text {
+        margin: 20px;
+        margin-left: 20px;
+        padding: 2em;
+
+        .heading {
+            font-size: 2.3em;
+        }
+
+        .text {
+            font-size: 1em;
+            padding: 10px;
+            line-height: 2em;
+            margin-bottom: 2em;
+        }
+    }
+
+    .section-image {
+        
+        
+        
+        .img {
+            width:350px;
+            height: 450px;
+            position: relative;
+           right: 13%;
+        }
+
+        .empty {
+            position: absolute;
+            right: 0;
+            bottom: 50;
+            width: 65%;
+            height: 150px;
+            background: darkgray;
+            opacity: 0.1;
+            border-top-left-radius: 20px;
+           z-index: 1;
+        }
+    }
+}
